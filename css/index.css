@@ -30,10 +30,11 @@ body {
 
 .menulink-header-container a {
     background: powderblue;
-    padding: 15px 20px;
+    color: black;
+    padding: 18px 20px;
     border-radius: 8px;
     text-decoration: none;
-    color: black;
+    font-size: 16px;
 }
 
 .menulink-header-container a:hover {
@@ -42,3 +43,12 @@ body {
 }
 
 /*------------------MENU BAR CSS--------------------*/
+
+.top-container-content {
+    background: lightgray;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+    width: 50%;
+}
