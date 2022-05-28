@@ -20,25 +20,7 @@ body {
     border-radius: 100px;
 }
 
-.menulink-header-container {
-    position: relative;
-    top: 80px;
-    max-width: 703px;
-}
 
-.menulink-header-container a {
-    background: powderblue;
-    color: black;
-    padding: 18px 20px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-.menulink-header-container a:hover {
-    background: lightblue;
-    color: darkorchid;
-}
 
 /*------------------MENU BAR CSS--------------------*/
 
@@ -50,3 +32,32 @@ body {
     height: 800px;
     width: 50%;
 }
+
+
+
+
+/* Content will be decided if i use it or not for a regular menu 
+or a drop down menu.
+.menulink-header-container {
+    position: relative;
+    top: 80px;
+    max-width: 703px;
+    max-height:
+    display: inline-block;
+}
+
+.menulink-header-container a {
+    background: powderblue;
+    color: black;
+    padding: 18px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.menulink-header-container a:hover {
+    background: lightblue;
+    color: darkorchid;
+}
+*/
