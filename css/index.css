@@ -1,26 +1,84 @@
 body {
     box-sizing: border-box;
     background: #354259;
-    max-width: 1920px;
-    max-height: 1080px;
-    margin: 0;
+    max-width: 3840px;
+    max-height: 2160px;
+    min-width: 1280px;
+    min-height: 720px;
+    margin: 8px;
 }
 
 /*-----------------------------------------------------*/
+
 .top-header-container {
-    width: 100%;
-    margin-top: 30px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    gap: 70px;
+    flex-direction: row;
     justify-content: center;
 }
 
 .gif-logo {
-    width: 180px;
+    max-width: 239px;
+    max-height: 239px;
+    min-width: 109px;
+    min-height: 109px;
+    width: 100%;
     border-radius: 100px;
 }
 
+.gif-logo-container {
+    width: 60%;
+}
 
+.dropbtn {
+    background-color: powderblue;
+    position: relative;
+    top: 30%;
+    color: black;
+    padding: 14px 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5B4B8A;
+    max-width: 200px;
+    max-height: 300px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+    border-radius: 8px;
+}
+
+.dropdown-content a:hover {
+    border-radius: 8px;
+    background-color: #FAD4D4;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: aquamarine;
+}
 
 /*------------------MENU BAR CSS--------------------*/
 
@@ -29,12 +87,26 @@ body {
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-    height: 800px;
-    width: 50%;
+    height: 300px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+/* This top container paragraph is only temporary */
+.top-container-paragraph {
+    text-align: center;
+    color: purple;
+    text-decoration: underline;
+    font-size: 20px;
 }
 
-
-
+.top-p-div {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 70px;
+}
 
 /* Content will be decided if i use it or not for a regular menu 
 or a drop down menu.
