@@ -15,16 +15,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .gif-logo {
-    max-width: 239px;
-    max-height: 239px;
-    min-width: 109px;
-    min-height: 109px;
-    width: 100%;
+    width: 35%;
     border-radius: 100px;
 }
 
@@ -92,6 +87,7 @@ body {
     width: 100%;
     position: relative;
 }
+
 /* This top container paragraph is only temporary */
 .top-container-paragraph {
     text-align: center;
