@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    background-color: powderblue;
+    box-sizing: border-box;
+    max-width: 1080px;
+    max-height: 1920px;
+    min-width: 768px;
+    min-height: 1280px;
+}
+
+.main-container {
+    background-color: silver;
+    width: 800px;
+    height: 200px;
+}
+
+.text-container {}
