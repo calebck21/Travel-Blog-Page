@@ -12,11 +12,12 @@ body {
 
 @font-face {
     font-family: beyond-mars-font;
-    src: url(../font/Beyond\ Mars/Beyond Mars Italic.ttf)
+    src: url(../font/Beyond\ Mars/Beyond\Mars\Italic.ttf)
 }
+
 /*-----------------------CUSTOM FONT FAMILY--------------------*/
 h1 {
-    width:80%;
+    width: 80%;
     height: auto;
     position: relative;
     top: 30px;
@@ -26,7 +27,7 @@ h1 {
 }
 
 h2 {
-    width:80%;
+    width: 80%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -37,11 +38,17 @@ h2 {
     line-height: 38px;
 }
 
+h3 {
+    color: white;
+    position: relative;
+    bottom: 20px;
+}
+
 .main-container {
     background-color: #3C2C3E;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 120px;
+    margin-top: 80px;
     width: 80%;
     height: auto;
     height: 250px;
@@ -51,7 +58,7 @@ h2 {
 }
 
 .text-container {
-    color: white;  
+    color: white;
 }
 
 /*------------LINKS CONTAINER------------*/
@@ -66,7 +73,7 @@ h2 {
 }
 
 .Menu-Links a {
-    padding: 20px 40px;
+    padding: 20px 45px;
     margin-left: 10px;
     margin-right: 10px;
     background-color: #4B5D67;
@@ -80,11 +87,49 @@ h2 {
 .Menu-Links a:hover {
     background-color: #BDF2D5;
     padding: 26px 46px;
-    border-radius: 100px;
+    border-radius: 20px;
     color: black;
 }
 
 .Menu-Links a:active {
+    color: red;
+    background-color: #F6FBF4;
+}
+
+/*------------LINKS CONTAINER------------*/
+
+/*------------SECOND LINKS CONTAINER------------*/
+
+.Menu-Links2 {
+    width: 60%;
+    min-width: 192px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.Menu-Links2 a {
+    padding: 20px 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #4B5D67;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: beyond-mars-font;
+    border-radius: 10px;
+}
+
+.Menu-Links2 a:hover {
+    background-color: #990000;
+    padding: 26px 46px;
+    border-radius: 20px;
+    color: white;
+}
+
+.Menu-Links2 a:active {
     color: red;
     background-color: #F6FBF4;
 }
