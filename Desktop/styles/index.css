@@ -4,6 +4,8 @@ body {
     box-sizing: border-box;
     min-width: 768px;
     min-height: 1280px;
+    max-width: 1920px;
+    max-height: 1080px;
 }
 
 /*-----------------------CUSTOM FONT FAMILY--------------------*/
@@ -15,6 +17,7 @@ body {
 /*-----------------------CUSTOM FONT FAMILY--------------------*/
 h1 {
     width:80%;
+    height: auto;
     position: relative;
     top: 30px;
     margin-left: auto;
@@ -24,6 +27,7 @@ h1 {
 
 h2 {
     width:80%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -39,7 +43,8 @@ h2 {
     margin-right: auto;
     margin-top: 120px;
     width: 80%;
-    height: 300px;
+    height: auto;
+    height: 250px;
     min-width: 384px;
     text-align: center;
     border-radius: 8px;
