@@ -1,17 +1,85 @@
 body {
     margin: 0;
-    background-color: powderblue;
+    background-color: #A5BECC;
     box-sizing: border-box;
-    max-width: 1080px;
-    max-height: 1920px;
     min-width: 768px;
     min-height: 1280px;
 }
 
-.main-container {
-    background-color: silver;
-    width: 800px;
-    height: 200px;
+/*-----------------------CUSTOM FONT FAMILY--------------------*/
+
+@font-face {
+    font-family: beyond-mars-font;
+    src: url(../font/Beyond\ Mars/Beyond Mars Italic.ttf)
+}
+/*-----------------------CUSTOM FONT FAMILY--------------------*/
+h1 {
+    width:80%;
+    position: relative;
+    top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: beyond-mars-font;
 }
 
-.text-container {}
+h2 {
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 40px;
+    font-family: beyond-mars-font;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.main-container {
+    background-color: #3C2C3E;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    width: 80%;
+    height: 300px;
+    min-width: 384px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.text-container {
+    color: white;  
+}
+
+/*------------LINKS CONTAINER------------*/
+.Menu-Links {
+    width: 60%;
+    min-width: 192px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.Menu-Links a {
+    padding: 20px 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #4B5D67;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: beyond-mars-font;
+    border-radius: 10px;
+}
+
+.Menu-Links a:hover {
+    background-color: #BDF2D5;
+    padding: 26px 46px;
+    border-radius: 100px;
+    color: black;
+}
+
+.Menu-Links a:active {
+    color: red;
+    background-color: #F6FBF4;
+}
