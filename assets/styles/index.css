@@ -15,6 +15,11 @@ body {
     src: url(../font/Beyond\ Mars/Beyond\Mars\Italic.ttf)
 }
 
+@font-face {
+    font-family: quantum-font;
+    src: url(../font/quantum/Quantum.otf)
+}
+
 /*-----------------------CUSTOM FONT FAMILY--------------------*/
 h1 {
     width: 80%;
