@@ -46,9 +46,9 @@ body {
 }
 
 .Menu-Links a:hover {
-background-color: lightgray;
-color: red;
-border-color: yellow;
+    background-color: lightgray;
+    color: red;
+    border-color: yellow;
 }
 
 .Menu-Links a:active {
