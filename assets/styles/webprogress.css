@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+    background-color: #E9D5CA;
+    max-width: 1920px;
+    min-width: 1280px;
+    max-height: 1080px;
+    min-height: 768px;
+}
