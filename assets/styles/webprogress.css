@@ -1,8 +1,77 @@
 body {
-    margin: 0;
+    margin-left: 8px;
+    margin-right: 8px;
     background-color: #E9D5CA;
-    max-width: 1920px;
     min-width: 1280px;
-    max-height: 1080px;
     min-height: 768px;
 }
+
+/*-----------FONT FAMILIES-------------*/
+@font-face {
+    font-family: beyond-mars-font;
+    src:url(../font/Beyond\ Mars/Beyond\Mars\Italic.ttf)
+}
+
+@font-face {
+    font-family: quantum-font;
+    src: url(../font/quantum/Quantum.otf);
+}
+/*-----------Logo CSS-------------*/
+.top-header-container {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    background-color: powderblue;
+    border-style: solid;
+    border-bottom-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 8px;
+}
+
+.logo-image {
+    width: 120px;
+}
+
+/*----------------MENU LINKS-----------*/
+
+.href-links {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.Menu-Links {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 45px;
+}
+
+.Menu-Links a {
+    color: black;
+    background-color: powderblue;
+    text-decoration: none;
+    padding: 14px 22px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: white;
+    border-width: 2px;
+    font-family: beyond-mars-font;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.Menu-Links a:hover {
+    color: white;
+    background-color: lightcoral;
+    border-color: black;
+}
+
+.Menu-Links a:active {
+    color: red;
+    background-color: lightgray;
+
+}
+
