@@ -75,3 +75,20 @@ body {
     background-color: lightgray;
 
 }
+
+/*-------------MIDDLE CONTAINER-----------*/
+.middle-container {
+    width: 1460px;
+    height: 400px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: powderblue;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
