@@ -26,6 +26,9 @@ body {
     border-left: none;
     border-right: none;
     border-radius: 8px;
+    width: 1460px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: center;
     gap: 200px;
@@ -79,7 +82,7 @@ body {
 /*-------------MIDDLE CONTAINER-----------*/
 .middle-container {
     width: 1460px;
-    height: 400px;
+    height: 450px;
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
@@ -91,4 +94,32 @@ body {
     border-bottom-right-radius: 20px;
     display: flex;
     justify-content: space-around;
+}
+
+.middle-container-2 {
+    width: 1460px;
+    height: 450px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: powderblue;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.code-image {
+    border-radius: 10px;
+    border-style: solid;
+    width: 550px;
+    height: 300px;
+    margin-top: 60px;
+}
+
+.middle-container-text {
+    margin-top: 50px;
 }
