@@ -43,13 +43,12 @@ body {
 .href-links {
     margin-left: 2px;
     margin-right: 2px;
-    animation-name: button-links;
 }
 
 .Menu-Links {
     width: fit-content;
     height: fit-content;
-    transition: 1s;
+    transition: 500ms;
     position: relative;
     top: 45px;
 }
@@ -75,7 +74,7 @@ body {
     border-radius: 100px;
     background-color: lightcoral;
     border-color: black;
-    transition: 1s;
+    transition: 500ms;
 }
 
 .Menu-Links a:active {
