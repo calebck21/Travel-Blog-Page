@@ -1,13 +1,14 @@
 body {
+    margin-left: 8px;
+    margin-right: 8px;
     background-color: #E9D5CA;
-    max-width: 1920px;
     min-width: 1280px;
-    max-height: 1080px;
     min-height: 768px;
-    font-family: Quantom-Font;
-    color: #827397;
-    font-size: 25px;
-    margin: 0;
+}
+
+@font-face {
+    font-family: beyond-mars-font;
+    src: url(../font/Beyond\ Mars/Beyond\Mars\Italic.ttf)
 }
 
 @font-face {
@@ -15,6 +16,188 @@ body {
     src: url(../font/quantum/Quantum.otf)
 }
 
+/*LOGO AND MENU CSS*/
+.top-header-container {
+    background-color: powderblue;
+    border-style: solid;
+    border-bottom-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 8px;
+    width: 1460px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    transition: 1s;
+    justify-content: center;
+    gap: 200px;
+}
+
+.logo-image {
+    width: 120px;
+}
+
+/*----------------MENU LINKS-----------*/
+
+.href-links {
+    margin-left: 2px;
+    margin-right: 2px;
+    animation-name: button-links;
+}
+
+.Menu-Links {
+    width: fit-content;
+    height: fit-content;
+    transition: 1s;
+    position: relative;
+    top: 45px;
+}
+
+.Menu-Links a {
+    color: black;
+    background-color: powderblue;
+    text-decoration: none;
+    padding: 16px 24px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: white;
+    border-width: 2px;
+    font-family: beyond-mars-font;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.Menu-Links a:hover {
+    color: white;
+    padding: 20px 28px;
+    border-radius: 100px;
+    background-color: lightcoral;
+    border-color: black;
+    transition: 1s;
+}
+
+.Menu-Links a:active {
+    color: red;
+    background-color: lightgray;
+
+}
+
+/*-------------main-content-container-----------*/
+.top-content-container {
+    background-color: #EEEEEE;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 1460px;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.Trailer-Image {
+    width: 900px;
+    height: auto;
+    margin-top: 15px;
+    border-style: solid;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.Trailer-Image:hover {
+    width: 1000px;
+    height: auto;
+    transition: 1s;
+}
+
+.text-content-container {
+    margin-top: 15px;
+    border-style: solid;
+    border-radius: 18px;
+    width: 700px;
+}
+
+
+
+/*-------------main-content-container--END----------*/
+
+
+/*------------CONTACT ME CONTAINER-------------*/
+
+.middle-container {
+    background-color: #EEEEEE;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 1460px;
+    height: 140px;
+    display: flex;
+}
+
+
+/*-----------CONTACT BUTTON LINKS-----------*/
+.text-container {
+    width: fit-content;
+    position: relative;
+    top: 40px;
+    left: 80px;
+}
+
+.h2-container {
+    position: relative;
+    bottom: 5px;
+    left: 300px;
+}
+
+.link-containers {
+    position: relative;
+    top: 60px;
+    left: 600px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.link-containers a {
+    padding: 16px 18px;
+    text-decoration: none;
+    background-color:powderblue;
+    border-radius: 10px;
+    transition: 500ms;
+    font-size: 18px;
+}
+
+.link-containers a:hover {
+    padding: 20px 22px;
+    transition: 500ms;
+}
+
+
+
+
+
+
+
+
+/*-----------CONTACT BUTTON LINKS END-----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .temporary-container {
     width: 1200px;
     background-color: lightcyan;
@@ -53,4 +236,4 @@ body {
 
 .Menu-Links a:active {
     color: green;
-}
+}*/

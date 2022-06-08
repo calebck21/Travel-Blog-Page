@@ -9,7 +9,7 @@ body {
 /*-----------FONT FAMILIES-------------*/
 @font-face {
     font-family: beyond-mars-font;
-    src: url(../font/Beyond\ Mars/Beyond\Mars\Italic.ttf)
+    src: url(../font/Beyond\ Mars/Beyond\Mars\Italic.ttf);
 }
 
 @font-face {
@@ -17,7 +17,7 @@ body {
     src: url(../font/quantum/Quantum.otf);
 }
 
-/*-----------Logo CSS-------------*/
+/*-----------Logo CSS AND MENU CSS-------------*/
 .top-header-container {
     background-color: powderblue;
     border-style: solid;
@@ -50,7 +50,7 @@ body {
 .Menu-Links {
     width: fit-content;
     height: fit-content;
-    transtion: 1s;
+    transition: 1s;
     position: relative;
     top: 45px;
 }
