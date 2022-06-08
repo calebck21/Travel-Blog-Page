@@ -94,6 +94,7 @@ h3 {
     padding: 26px 46px;
     border-radius: 20px;
     color: black;
+    transition: 1s;
 }
 
 .Menu-Links a:active {
@@ -132,6 +133,7 @@ h3 {
     padding: 26px 46px;
     border-radius: 20px;
     color: white;
+    transition: 1s;
 }
 
 .Menu-Links2 a:active {

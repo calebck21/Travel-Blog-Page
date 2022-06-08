@@ -30,6 +30,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    transition: 1s;
     justify-content: center;
     gap: 200px;
 }
@@ -43,11 +44,13 @@ body {
 .href-links {
     margin-left: 2px;
     margin-right: 2px;
+    animation-name: button-links;
 }
 
 .Menu-Links {
     width: fit-content;
     height: fit-content;
+    transtion: 1s;
     position: relative;
     top: 45px;
 }
@@ -69,8 +72,11 @@ body {
 
 .Menu-Links a:hover {
     color: white;
+    padding: 20px 28px;
+    border-radius: 100px;
     background-color: lightcoral;
     border-color: black;
+    transition: 1s;
 }
 
 .Menu-Links a:active {
@@ -112,12 +118,19 @@ body {
     justify-content: space-around;
 }
 
+/*--------------IMAGE CSS--------------*/
 .code-image {
-    border-radius: 10px;
+    width: 600px;
+    height: 350px;
+    margin-top: 50px;
     border-style: solid;
-    width: 550px;
-    height: 300px;
-    margin-top: 60px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.code-image:hover {
+    width: 700px;
+    height: 400px;
 }
 
 .middle-container-text {
