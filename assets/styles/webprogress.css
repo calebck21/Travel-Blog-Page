@@ -136,3 +136,23 @@ body {
 .middle-container-text {
     margin-top: 50px;
 }
+
+/*IMAGE 2*/
+
+.code-image-2 {
+    width: 600px;
+    height: 350px;
+    margin-top: 45px;
+    border-style: solid;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.code-image-2:hover {
+    width: 700px;
+    height: 400px;
+}
+
+.middle-container-2-text {
+    margin-top: 50px;
+}
