@@ -87,6 +87,7 @@ h3 {
     text-decoration: none;
     font-family: beyond-mars-font;
     border-radius: 10px;
+    transition: 500ms;
 }
 
 .Menu-Links a:hover {
@@ -94,7 +95,7 @@ h3 {
     padding: 26px 46px;
     border-radius: 20px;
     color: black;
-    transition: 1s;
+    transition: 500ms;
 }
 
 .Menu-Links a:active {

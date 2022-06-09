@@ -72,8 +72,8 @@ body {
 .Menu-Links a:hover {
     color: white;
     padding: 20px 28px;
-    border-radius: 100px;
-    background-color: lightcoral;
+    border-radius: 20px;
+    background-color: slateblue;
     border-color: black;
     transition: 500ms;
 }
@@ -91,7 +91,7 @@ body {
     margin-right: auto;
     margin-top: 60px;
     width: 1460px;
-    height: 780px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,13 +104,13 @@ body {
     margin-top: 15px;
     border-style: solid;
     border-radius: 20px;
-    transition: 1s;
+    transition: 600ms;
 }
 
 .Trailer-Image:hover {
-    width: 1000px;
+    width: 1100px;
     height: auto;
-    transition: 1s;
+    transition: 600ms;
 }
 
 .text-content-container {
@@ -130,12 +130,20 @@ body {
 .middle-container {
     background-color: #EEEEEE;
     margin-top: 50px;
+    margin-bottom: 200px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
     width: 1460px;
     height: 140px;
     display: flex;
+    transition: 400ms;
+}
+
+.middle-container:hover {
+    width: 1500px;
+    height: 180px;
+    transition: 600ms;
 }
 
 
@@ -164,20 +172,20 @@ body {
 .link-containers a {
     padding: 16px 18px;
     text-decoration: none;
-    background-color:powderblue;
+    background-color: powderblue;
     border-radius: 10px;
-    transition: 500ms;
+    transition: 400ms;
     font-size: 18px;
 }
 
 .link-containers a:hover {
     padding: 20px 22px;
-    transition: 500ms;
+    transition: 400ms;
+    color: white;
+    background-color: slateblue;
+    border-color: black;
+    border-style: solid;
 }
-
-
-
-
 
 
 
