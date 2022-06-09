@@ -20,6 +20,11 @@ body {
     src: url(../font/quantum/Quantum.otf)
 }
 
+@font-face {
+    font-family: Merriweather-Font;
+    src: url(../font/Merriweather/Merriweather-Black.ttf);
+}
+
 /*-----------------------CUSTOM FONT FAMILY--------------------*/
 h1 {
     width: 80%;
@@ -85,7 +90,7 @@ h3 {
     font-size: 20px;
     color: white;
     text-decoration: none;
-    font-family: beyond-mars-font;
+    font-family: Merriweather-Font;
     border-radius: 10px;
     transition: 500ms;
 }
@@ -125,7 +130,7 @@ h3 {
     font-size: 20px;
     color: white;
     text-decoration: none;
-    font-family: beyond-mars-font;
+    font-family: Merriweather-Font;
     border-radius: 10px;
 }
 
