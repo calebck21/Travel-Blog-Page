@@ -17,6 +17,11 @@ body {
     src: url(../font/quantum/Quantum.otf);
 }
 
+@font-face {
+    font-family: Merriweather-Font;
+    src: url(../font/Merriweather/Merriweather-Black.ttf);
+}
+
 /*-----------Logo CSS AND MENU CSS-------------*/
 .top-header-container {
     background-color: powderblue;
@@ -44,7 +49,6 @@ body {
 .href-links {
     margin-left: 2px;
     margin-right: 2px;
-    animation-name: button-links;
 }
 
 .Menu-Links {
@@ -58,6 +62,7 @@ body {
 .Menu-Links a {
     color: black;
     background-color: powderblue;
+    transition: 500ms;
     text-decoration: none;
     padding: 16px 24px;
     text-align: center;
@@ -76,7 +81,7 @@ body {
     border-radius: 100px;
     background-color: lightcoral;
     border-color: black;
-    transition: 1s;
+    transition: 500ms;
 }
 
 .Menu-Links a:active {

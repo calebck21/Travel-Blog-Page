@@ -66,6 +66,7 @@ body {
     font-family: beyond-mars-font;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    transition: 500ms;
 }
 
 .Menu-Links a:hover {
