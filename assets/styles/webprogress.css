@@ -1,0 +1,167 @@
+body {
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color: #E9D5CA;
+    min-width: 1280px;
+    min-height: 768px;
+}
+
+/*-----------FONT FAMILIES-------------*/
+@font-face {
+    font-family: beyond-mars-font;
+    src: url(../font/Beyond\ Mars/Beyond\Mars\Italic.ttf);
+}
+
+@font-face {
+    font-family: quantum-font;
+    src: url(../font/quantum/Quantum.otf);
+}
+
+@font-face {
+    font-family: Merriweather-Font;
+    src: url(../font/Merriweather/Merriweather-Black.ttf);
+}
+
+/*-----------Logo CSS AND MENU CSS-------------*/
+.top-header-container {
+    background-color: powderblue;
+    border-style: solid;
+    border-bottom-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 8px;
+    width: 1460px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    transition: 1s;
+    justify-content: center;
+    gap: 200px;
+}
+
+.logo-image {
+    width: 120px;
+}
+
+/*----------------MENU LINKS-----------*/
+
+.href-links {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.Menu-Links {
+    width: fit-content;
+    height: fit-content;
+    transition: 1s;
+    position: relative;
+    top: 45px;
+}
+
+.Menu-Links a {
+    color: black;
+    background-color: powderblue;
+    transition: 500ms;
+    text-decoration: none;
+    padding: 16px 24px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: white;
+    border-width: 2px;
+    font-family: beyond-mars-font;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family:  Merriweather-Font; 
+}
+
+.Menu-Links a:hover {
+    color: white;
+    padding: 20px 28px;
+    border-radius: 20px;
+    background-color: slateblue;
+    border-color: black;
+    transition: 500ms;
+}
+
+.Menu-Links a:active {
+    color: red;
+    background-color: lightgray;
+
+}
+
+/*-------------MIDDLE CONTAINER-----------*/
+.middle-container {
+    width: 1460px;
+    height: 450px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: powderblue;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle-container-2 {
+    width: 1460px;
+    height: 450px;
+    margin-top: 60px;
+    margin-bottom: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: powderblue;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*--------------IMAGE CSS--------------*/
+.code-image {
+    width: 600px;
+    height: 350px;
+    margin-top: 50px;
+    border-style: solid;
+    border-radius: 10px;
+    transition: 600ms;
+}
+
+.code-image:hover {
+    width: 800px;
+    height: 450px;
+}
+
+.middle-container-text {
+    margin-top: 50px;
+}
+
+/*IMAGE 2*/
+
+.code-image-2 {
+    width: 600px;
+    height: 350px;
+    margin-top: 45px;
+    border-style: solid;
+    border-radius: 10px;
+    transition: 600ms;
+}
+
+.code-image-2:hover {
+    width: 800px;
+    height: 450px;
+    position: relative;
+    bottom: 10px;
+}
+
+.middle-container-2-text {
+    margin-top: 50px;
+}

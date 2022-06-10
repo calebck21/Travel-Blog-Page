@@ -15,6 +15,16 @@ body {
     src: url(../font/Beyond\ Mars/Beyond\Mars\Italic.ttf)
 }
 
+@font-face {
+    font-family: quantum-font;
+    src: url(../font/quantum/Quantum.otf)
+}
+
+@font-face {
+    font-family: Merriweather-Font;
+    src: url(../font/Merriweather/Merriweather-Black.ttf);
+}
+
 /*-----------------------CUSTOM FONT FAMILY--------------------*/
 h1 {
     width: 80%;
@@ -80,8 +90,9 @@ h3 {
     font-size: 20px;
     color: white;
     text-decoration: none;
-    font-family: beyond-mars-font;
+    font-family: Merriweather-Font;
     border-radius: 10px;
+    transition: 500ms;
 }
 
 .Menu-Links a:hover {
@@ -89,6 +100,7 @@ h3 {
     padding: 26px 46px;
     border-radius: 20px;
     color: black;
+    transition: 500ms;
 }
 
 .Menu-Links a:active {
@@ -118,7 +130,7 @@ h3 {
     font-size: 20px;
     color: white;
     text-decoration: none;
-    font-family: beyond-mars-font;
+    font-family: Merriweather-Font;
     border-radius: 10px;
 }
 
@@ -127,6 +139,7 @@ h3 {
     padding: 26px 46px;
     border-radius: 20px;
     color: white;
+    transition: 1s;
 }
 
 .Menu-Links2 a:active {
