@@ -1,0 +1,292 @@
+body {
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color: #E9D5CA;
+    min-width: 1280px;
+    min-height: 768px;
+}
+
+/*----------------------- ALL FONT IN THE WORLD---------------------------*/
+@font-face {
+    font-family: beyond-mars-font;
+    src: url(../font/Beyond\ Mars/Beyond\Mars\Italic.ttf)
+}
+
+@font-face {
+    font-family: Quantom-Font;
+    src: url(../font/quantum/Quantum.otf)
+}
+
+@font-face {
+    font-family: Merriweather-Font;
+    src: url(../font/Merriweather/Merriweather-Black.ttf);
+}
+
+/*----------------------- ALL FONT IN THE WORLD ENDING---------------------------*/
+/*LOGO AND MENU CSS*/
+.top-header-container {
+    background-color: #EEEEEE;
+    border-style: solid;
+    border-bottom-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 8px;
+    width: 1460px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    transition: 1s;
+    justify-content: center;
+    gap: 200px;
+}
+
+.logo-image {
+    width: 120px;
+}
+
+/*----------------MENU LINKS-----------*/
+
+.href-links {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.Menu-Links {
+    width: fit-content;
+    height: fit-content;
+    transition: 500ms;
+    position: relative;
+    top: 45px;
+}
+
+.Menu-Links a {
+    color: black;
+    background-color: powderblue;
+    text-decoration: none;
+    padding: 16px 24px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: black;
+    border-width: 2px;
+    font-family: beyond-mars-font;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: Merriweather-Font;
+    transition: 500ms;
+}
+
+.Menu-Links a:hover {
+    color: white;
+    padding: 20px 28px;
+    border-radius: 20px;
+    background-color: slateblue;
+    border-color: black;
+    transition: 500ms;
+}
+
+.Menu-Links a:active {
+    color: red;
+    background-color: lightgray;
+
+}
+
+/*----------------MENU LINKS ENDING-----------*/
+
+/*-------------- TOP CONTENT CSS CONTAINER---------*/
+
+.top-content-container {
+    background-color: #EEEEEE;
+    width: 1460px;
+    height: 1400px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+/*-------------- TOP CONTENT CSS CONTAINER ENDING---------*/
+
+
+/*---------------IMAGE CONTAINER MEDIA CSS ---------------*/
+
+
+
+
+/*---------------IMAGE PARAGRAPH 1-------------*/
+.image-container-1 {
+    background-color: lightgray;
+    border-radius: 8px;
+    transition: 500ms;
+    width: 400px;
+    height: 300px;
+}
+
+.image-container-1:hover {
+    background-color: powderblue;
+    border-radius: 8px;
+    transition: 500ms;
+    width: 500px;
+    height: 400px;
+}
+/*---------------IMAGE PARAGRAPH 1-------------*/
+.image-container-2 {
+    background-color: lightgray;
+    border-radius: 8px;
+    transition: 500ms;
+    width: 400px;
+    height: 300px;
+}
+
+.image-container-2:hover {
+    background-color: powderblue;
+    border-radius: 8px;
+    transition: 500ms;
+    width: 500px;
+    height: 400px;
+}
+/*---------------IMAGE PARAGRAPH 2-------------*/
+
+.image-container-3 {
+    background-color: lightgray;
+    border-radius: 8px;
+    transition: 500ms;
+    width: 400px;
+    height: 300px;
+}
+
+.image-container-3:hover {
+    background-color: powderblue;
+    border-radius: 8px;
+    transition: 500ms;
+    width: 500px;
+    height: 400px;
+}
+/*---------------IMAGE PARAGRAPH 3-------------*/
+
+.image-container-4 {
+    background-color: lightgray;
+    border-radius: 8px;
+    transition: 500ms;
+    width: 400px;
+    height: 300px;
+}
+
+.image-container-4:hover {
+    background-color: powderblue;
+    border-radius: 8px;
+    transition: 500ms;
+    width: 500px;
+    height: 400px;
+}
+/*---------------IMAGE PARAGRAPH 4-------------*/
+
+.image-container-5 {
+    background-color: lightgray;
+    border-radius: 8px;
+    transition: 500ms;
+    width: 400px;
+    height: 300px;
+}
+
+.image-container-5:hover {
+    background-color: powderblue;
+    border-radius: 8px;
+    transition: 500ms;
+    width: 500px;
+    height: 400px;
+}
+/*---------------IMAGE PARAGRAPH 5-------------*/
+
+.image-container-6 {
+    background-color: lightgray;
+    border-radius: 8px;
+    transition: 500ms;
+    width: 400px;
+    height: 300px;
+}
+
+.image-container-6:hover {
+    background-color: powderblue;
+    border-radius: 8px;
+    transition: 500ms;
+    width: 500px;
+    height: 400px;
+}
+/*---------------IMAGE PARAGRAPH 6-------------*/
+
+.image-container-7 {
+    background-color: lightgray;
+    border-radius: 8px;
+    transition: 500ms;
+    width: 400px;
+    height: 300px;
+}
+
+.image-container-7:hover {
+    background-color: powderblue;
+    border-radius: 8px;
+    transition: 500ms;
+    width: 500px;
+    height: 400px;
+}
+/*---------------IMAGE PARAGRAPH 7-------------*/
+
+.image-container-8 {
+    background-color: lightgray;
+    border-radius: 8px;
+    transition: 500ms;
+    width: 400px;
+    height: 300px;
+}
+
+.image-container-8:hover {
+    background-color: powderblue;
+    border-radius: 8px;
+    transition: 500ms;
+    width: 500px;
+    height: 400px;
+}
+/*---------------IMAGE PARAGRAPH 8-------------*/
+
+.image-container-9 {
+    background-color: lightgray;
+    border-radius: 8px;
+    transition: 500ms;
+    width: 400px;
+    height: 300px;
+}
+
+.image-container-9:hover {
+    background-color: powderblue;
+    border-radius: 8px;
+    transition: 500ms;
+    width: 500px;
+    height: 400px;
+}
+/*---------------IMAGE PARAGRAPH 9-------------*/
+
+/*---------------IMAGE CONTAINER MEDIA CSS ENDING---------------*/
+
+
+
+/*------------- FOOTER CSS CONTAINER ------------------*/
+.footer-container {
+    background-color: #EEEEEE;
+    width: 1460px;
+    height: 140px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    border-style: solid;
+}
+/*------------- FOOTER CSS CONTAINER ENDING------------------*/
