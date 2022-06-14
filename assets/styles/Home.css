@@ -23,7 +23,7 @@ body {
 
 /*LOGO AND MENU CSS*/
 .top-header-container {
-    background-color: powderblue;
+    background-color: #EEEEEE;
     border-style: solid;
     border-bottom-color: black;
     border-top: none;
@@ -66,7 +66,7 @@ body {
     text-align: center;
     border-style: solid;
     border-radius: 8px;
-    border-color: white;
+    border-color: black;
     border-width: 2px;
     font-family: beyond-mars-font;
     border-top-left-radius: 20px;
@@ -97,17 +97,33 @@ body {
     margin-right: auto;
     margin-top: 60px;
     width: 1460px;
-    height: 800px;
+    height: 1000px;
+
+    /*
     display: flex;
     flex-direction: column;
     align-items: center;
+    */
     border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+.Main-content-adjuster {
+    width: 1100px;
+    height: 900px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Trailer-Image {
     width: 900px;
     height: auto;
-    margin-top: 15px;
+    margin-top: 30px;
     border-style: solid;
     border-radius: 20px;
     transition: 600ms;
@@ -120,26 +136,29 @@ body {
 }
 
 .text-content-container {
-    margin-top: 15px;
+    margin-top: 30px;
     border-style: solid;
+    border-width: 3px;
     border-radius: 18px;
-    width: 700px;
+    width: 900px;
 }
 
+/*----------------MENU LINKS ENDING-----------*/
 
 
-/*-------------main-content-container--END----------*/
+/*-------------Main Content-Container--END----------*/
 
 
 /*------------CONTACT ME CONTAINER-------------*/
 
 .middle-container {
     background-color: #EEEEEE;
-    margin-top: 50px;
-    margin-bottom: 200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+    border-style: solid;
     width: 1460px;
     height: 140px;
     display: flex;
@@ -148,7 +167,8 @@ body {
 
 .middle-container:hover {
     width: 1500px;
-    height: 180px;
+    height: 140px;
+    border-style: solid;
     transition: 600ms;
 }
 
@@ -163,6 +183,7 @@ body {
 
 .h2-container {
     position: relative;
+    height: fit-content;
     bottom: 5px;
     left: 300px;
 }
@@ -187,9 +208,9 @@ body {
 .link-containers a:hover {
     padding: 20px 22px;
     transition: 400ms;
-    color: white;
+    color: #EEEEEE;
     background-color: slateblue;
-    border-color: black;
+    border-color: silver;
     border-style: solid;
 }
 
@@ -198,7 +219,24 @@ body {
 
 /*-----------CONTACT BUTTON LINKS END-----------*/
 
+/*----------SOCIAL MEDIA CONTAINER-------------*/
 
+.footer-container {
+    background-color: #EEEEEE;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    width: 1460px;
+    height: 140px;
+    transition: 400ms;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+.footer-container:hover {
+    width: 1500px;
+    transition: 400ms;
+}
 
 
 
