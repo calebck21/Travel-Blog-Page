@@ -114,11 +114,7 @@ body {
 
 /*-------------- TOP CONTENT CSS CONTAINER ENDING---------*/
 
-
 /*---------------IMAGE CONTAINER MEDIA CSS ---------------*/
-
-
-
 
 /*---------------IMAGE PARAGRAPH 1-------------*/
 .image-container-1 {
@@ -136,7 +132,12 @@ body {
     width: 500px;
     height: 400px;
 }
+
+.image-paragraph-1 {}
+
 /*---------------IMAGE PARAGRAPH 1-------------*/
+
+/*---------------IMAGE PARAGRAPH 2-------------*/
 .image-container-2 {
     background-color: lightgray;
     border-radius: 8px;
@@ -152,8 +153,12 @@ body {
     width: 500px;
     height: 400px;
 }
+
+.image-paragraph-2 {}
+
 /*---------------IMAGE PARAGRAPH 2-------------*/
 
+/*---------------IMAGE PARAGRAPH 3-------------*/
 .image-container-3 {
     background-color: lightgray;
     border-radius: 8px;
@@ -169,8 +174,11 @@ body {
     width: 500px;
     height: 400px;
 }
+
+.image-paragraph-3
 /*---------------IMAGE PARAGRAPH 3-------------*/
 
+/*---------------IMAGE PARAGRAPH 4-------------*/
 .image-container-4 {
     background-color: lightgray;
     border-radius: 8px;
@@ -186,8 +194,11 @@ body {
     width: 500px;
     height: 400px;
 }
+
+.image-paragraph-4
 /*---------------IMAGE PARAGRAPH 4-------------*/
 
+/*---------------IMAGE PARAGRAPH 5-------------*/
 .image-container-5 {
     background-color: lightgray;
     border-radius: 8px;
@@ -203,8 +214,11 @@ body {
     width: 500px;
     height: 400px;
 }
+
+.image-paragraph-5
 /*---------------IMAGE PARAGRAPH 5-------------*/
 
+/*---------------IMAGE PARAGRAPH 6-------------*/
 .image-container-6 {
     background-color: lightgray;
     border-radius: 8px;
@@ -220,8 +234,11 @@ body {
     width: 500px;
     height: 400px;
 }
+
+.image-paragraph-6
 /*---------------IMAGE PARAGRAPH 6-------------*/
 
+/*---------------IMAGE PARAGRAPH 7-------------*/
 .image-container-7 {
     background-color: lightgray;
     border-radius: 8px;
@@ -237,8 +254,11 @@ body {
     width: 500px;
     height: 400px;
 }
+
+.image-paragraph-7
 /*---------------IMAGE PARAGRAPH 7-------------*/
 
+/*---------------IMAGE PARAGRAPH 8-------------*/
 .image-container-8 {
     background-color: lightgray;
     border-radius: 8px;
@@ -254,8 +274,13 @@ body {
     width: 500px;
     height: 400px;
 }
+
+.image-paragraph-7 {}
+
 /*---------------IMAGE PARAGRAPH 8-------------*/
 
+
+/*---------------IMAGE PARAGRAPH 9-------------*/
 .image-container-9 {
     background-color: lightgray;
     border-radius: 8px;
@@ -271,11 +296,12 @@ body {
     width: 500px;
     height: 400px;
 }
+
+.image-paragraph-9 {}
+
 /*---------------IMAGE PARAGRAPH 9-------------*/
 
 /*---------------IMAGE CONTAINER MEDIA CSS ENDING---------------*/
-
-
 
 /*------------- FOOTER CSS CONTAINER ------------------*/
 .footer-container {
@@ -289,4 +315,5 @@ body {
     border-radius: 8px;
     border-style: solid;
 }
+
 /*------------- FOOTER CSS CONTAINER ENDING------------------*/
