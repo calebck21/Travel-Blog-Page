@@ -1,0 +1,51 @@
+body {
+    background-color: #EEEEEE;
+}
+/*------------------CUSTOM FONTS-----------------*/
+@font-face {
+    font-family: Merriweather-Font;
+    src :url(../font/Merriweather/Merriweather-Black.ttf)
+}
+
+@font-face {
+    font-family: Quantum-Font;
+    src: url(../font/quantum/Quantum.otf)
+}
+
+
+
+/*------------------CUSTOM FONTS-----------------*/
+.Top-Container {
+    max-width: 1200px;
+    max-height: 700px;
+    min-width: 600px;
+    min-height: 300px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: powderblue;
+    border-radius: 15px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-style: solid;
+}
+
+.header-2-message {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: Merriweather-Font;
+    font-weight: 600;
+}
+
+.device-warning-page {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Merriweather-Font;
+    color: white;
+    width: 1000px;
+    font-size: 25px;
+}
