@@ -1,0 +1,92 @@
+body {
+    background-color: #EEEEEE;
+}
+/*------------------CUSTOM FONTS-----------------*/
+@font-face {
+    font-family: Merriweather-Font;
+    src :url(../font/Merriweather/Merriweather-Black.ttf);
+}
+
+@font-face {
+    font-family: Quantum-Font;
+    src: url(../font/quantum/Quantum.otf);
+}
+
+@font-face {
+    font-family: poppins-font;
+    src:url(../font/Poppins/Poppins-Black.ttf);
+}
+
+/*------------------CUSTOM FONTS-----------------*/
+.Top-Container {
+    width: 1200px;
+    height: 700px;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: powderblue;
+    border-radius: 15px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-style: solid;
+}
+
+.header-2-message {
+    width: 700px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: Merriweather-Font;
+    font-weight: 600;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.device-warning-page {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: black;
+    font-family: Merriweather-Font;
+    color: rgb(108, 20, 215);
+    padding: 10px;
+    width: 1000px;
+    font-size: 25px;
+}
+
+/*---------------- BUTTON LINKS ---------------*/
+
+.button-link-container {
+    width: fit-content;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.button-link-container a {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border-style: solid;
+    text-decoration: none;
+    background-color: #3AB0FF;
+    font-family: poppins-font;
+    transition: 500ms;
+}
+
+.button-link-container a:hover {
+    color: black;
+    border-color: #F87474;
+    background-color: #FFB562;
+    text-decoration: underline;
+}
