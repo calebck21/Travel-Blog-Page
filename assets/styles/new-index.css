@@ -1,6 +1,8 @@
 body {
     background-color: #EEEEEE;
+    margin: 0;
 }
+
 /*------------------CUSTOM FONTS-----------------*/
 @font-face {
     font-family: Merriweather-Font;
@@ -17,12 +19,25 @@ body {
     src:url(../font/Poppins/Poppins-Black.ttf);
 }
 
+@font-face {
+    font-family: Potta-One-Font;
+    src: url(../font/Potta_One/PottaOne-Regular.ttf);
+}
 /*------------------CUSTOM FONTS-----------------*/
+.Main-menu-header {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-size: 40px;
+    font-family: poppins-font;
+}
+
 .Top-Container {
     width: 1200px;
     height: 700px;
-    margin-top: 100px;
-    margin-bottom: 120px;
+    margin-top: 40px;
+    margin-bottom: 28px;
     margin-left: auto;
     margin-right: auto;
     background-color: powderblue;
@@ -34,15 +49,18 @@ body {
 
 .header-2-message {
     width: 700px;
-    height: 60px;
+    height: fit-content;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #EEEEEE;
+    margin-top: 120px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-size: 30px;
     font-family: Merriweather-Font;
     font-weight: 600;
-    border-style: solid;
-    border-radius: 10px;
 }
 
 .device-warning-page {
@@ -55,13 +73,44 @@ body {
     border-color: black;
     font-family: Merriweather-Font;
     color: rgb(108, 20, 215);
+    line-height: 45px;
     padding: 10px;
-    width: 1000px;
+    width: 1100px;
     font-size: 25px;
 }
 
-/*---------------- BUTTON LINKS ---------------*/
+.span-1 {
+    color: orange;
+    font-size: 45px;
+    font-family: Quantum-Font;
+}
 
+/*---------------- BUTTON LINKS AND TEXT ---------------*/
+.button-link-container {
+    width: fit-content;
+}
+
+.availability-site-text {
+    width: fit-content;
+    position: relative;
+    font-size: 25px;
+    transition: 500ms;
+    top: 30px;
+    left: 730px;
+}
+
+.availability-site-text:hover {
+    transition: 500ms;
+    font-size: 35px;
+}
+
+.span-2 {
+    color: orange;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*---------------- BUTTON LINKS ---------------*/
 .button-link-container {
     width: fit-content;
     margin-top: 80px;
