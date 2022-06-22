@@ -7,11 +7,6 @@ body {
 }
 
 @font-face {
-    font-family: beyond-mars-font;
-    src: url(../font/Beyond\ Mars/Beyond\Mars\Italic.ttf)
-}
-
-@font-face {
     font-family: Quantom-Font;
     src: url(../font/quantum/Quantum.otf)
 }
