@@ -6,7 +6,7 @@ body {
 /*------------------CUSTOM FONTS-----------------*/
 @font-face {
     font-family: Merriweather-Font;
-    src :url(../font/Merriweather/Merriweather-Black.ttf);
+    src: url(../font/Merriweather/Merriweather-Black.ttf);
 }
 
 @font-face {
@@ -16,13 +16,14 @@ body {
 
 @font-face {
     font-family: poppins-font;
-    src:url(../font/Poppins/Poppins-Black.ttf);
+    src: url(../font/Poppins/Poppins-Black.ttf);
 }
 
 @font-face {
     font-family: Potta-One-Font;
     src: url(../font/Potta_One/PottaOne-Regular.ttf);
 }
+
 /*------------------CUSTOM FONTS-----------------*/
 .Main-menu-header {
     margin-top: 50px;
@@ -115,7 +116,7 @@ body {
     width: fit-content;
     margin-top: 80px;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
 .button-link-container a {
