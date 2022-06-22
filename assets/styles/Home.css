@@ -21,6 +21,11 @@ body {
     src: url(../font/Merriweather/Merriweather-Black.ttf);
 }
 
+@font-face {
+    font-family: poppins-font;
+    src: url(../font/Poppins/Poppins-Black.ttf)
+}
+
 /*LOGO AND MENU CSS*/
 .top-header-container {
     background-color: #EEEEEE;
