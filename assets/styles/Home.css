@@ -7,11 +7,6 @@ body {
 }
 
 @font-face {
-    font-family: beyond-mars-font;
-    src: url(../font/Beyond\ Mars/Beyond\Mars\Italic.ttf)
-}
-
-@font-face {
     font-family: Quantom-Font;
     src: url(../font/quantum/Quantum.otf)
 }
@@ -19,6 +14,11 @@ body {
 @font-face {
     font-family: Merriweather-Font;
     src: url(../font/Merriweather/Merriweather-Black.ttf);
+}
+
+@font-face {
+    font-family: poppins-font;
+    src: url(../font/Poppins/Poppins-Black.ttf)
 }
 
 /*LOGO AND MENU CSS*/
@@ -160,37 +160,38 @@ body {
     border-radius: 10px;
     border-style: solid;
     width: 1460px;
-    height: 140px;
+    height: 190px;
     display: flex;
     transition: 400ms;
 }
 
 .middle-container:hover {
     width: 1500px;
-    height: 140px;
+    height: 180px;
     border-style: solid;
     transition: 600ms;
 }
 
 
 /*-----------CONTACT BUTTON LINKS-----------*/
+.text-content-div {
+    position: relative;
+    left: 60px;
+}
+
 .text-container {
     width: fit-content;
     position: relative;
-    top: 40px;
-    left: 80px;
 }
 
 .h2-container {
     position: relative;
     height: fit-content;
-    bottom: 5px;
-    left: 300px;
 }
 
 .link-containers {
     position: relative;
-    top: 60px;
+    top: 40px;
     left: 600px;
     width: fit-content;
     height: fit-content;
@@ -214,10 +215,8 @@ body {
     border-style: solid;
 }
 
-
-
-
 /*-----------CONTACT BUTTON LINKS END-----------*/
+
 
 /*----------SOCIAL MEDIA CONTAINER-------------*/
 
